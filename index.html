@@ -114,14 +114,21 @@
                 <div class="section-contact">
                     <aside class="aside-stiky5"></aside>
                     <article class="article-5">
-                        <input class="inp-name" type="text" name="name" placeholder="Name" />
-                        <br>
-                        <input class="inp-name" type="email" name="email" placeholder="Email" />
-                        <br>
-                        <textarea class="inp-message" placeholder="Your Message"> </textarea>
-                        <br>
-                        <input class="button-send" type="button" name="button" value="SEND" />
-                        <br>
+                        <form>
+                            <input id="inp-name" class="inp-name" type="text" name="name" placeholder="Name" required/>
+                            <br>
+                            <input id="inp-email" class="inp-name" type="email" name="email" placeholder="Email" required/>
+                            <br>
+                            <textarea id="your-message" class="inp-message" placeholder="Your Message"> </textarea>
+                            <br>
+                            <input class="button-send" type="submit" name="button" value="SEND" />
+                            <br>
+                        </form>
+                        <div id="message-box">
+
+                        </div>
+                        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+                        <script src="js/index.js"></script>
                     </article>
                 </div>
                 <h2>You Can Find me:</h2>
@@ -137,4 +144,5 @@
         </div>
     </main>
 </body>
+
 </html>

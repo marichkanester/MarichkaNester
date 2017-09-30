@@ -120,4 +120,16 @@
         height: 30px;
         margin: 10px;
     }
+    .section-contact .article-5 .inp-name {
+        margin: 10px 0 -50px 0;
+    }
+
+    .section-contact .article-5 .inp-message {
+        margin: 10px 0 0px 0;
+    }
+
+    .button-send {
+        margin: 10px 0 -50px 0;
+    }
+
 }

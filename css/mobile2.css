@@ -109,26 +109,15 @@
         margin: 10px;
     }
     .section-contact .article-5 .inp-name {
-        width: 300px;
-        height: 30px;
-        margin: 10px 0 -50px 60px;
-        border: 2px groove gray;
-        border-radius: 5px;
-        font-size: 20px;
+        margin: 10px 0 -50px 0;
     }
+
     .section-contact .article-5 .inp-message {
-        width: 300px;
-        height: 100px;
-        margin: 10px 0 -50px 60px;
-        border: 2px groove gray;
-        border-radius: 5px;
+        margin: 10px 0 0px 0;
     }
+
     .button-send {
-        width: 200px;
-        height: 70px;
-        margin: 10px 0 -50px 100px;
-        border: 2px groove gray;
-        border-radius: 5px;
-        font-size: 30px;
+        margin: 10px 0 -50px 0;
     }
+
 }
