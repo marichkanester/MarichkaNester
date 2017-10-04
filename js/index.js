@@ -13,11 +13,12 @@ $(function(){
                 message: $('#your-message').val()},
             dataType: "json"
         }).done(function(){
-            $('form')[0].reset();
-        $('#message-box').html('Thank you!');
+            document.getElementById("form-send").style.display="none";
+             $('#message-box').html('<img src="../img/fox.png"><br><h6>Thank You for Your message</h6>');
         }).fail(function() {
             $('#message-box').html('Error');
         });
+        
     })
     
     

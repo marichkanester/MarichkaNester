@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 500px) {
     body {
         max-width: 600px;
@@ -10,7 +11,7 @@
     }
     .home-title {
         margin-top: 30px;
-        font-size: 30px;
+        font-size: 25px;
     }
     .burger-menu {
         display: block;
@@ -31,12 +32,12 @@
 
     .burger-menu ul:hover {
         width: 130px;
-        height: 300px;
+        height: 290px;
         float: right;
         margin-top: -20px;
         background-image: none;
         position: absolute;
-        background-color: #ff80aa;
+        background-color: rgb(215, 128, 237);
         border: 2px groove black;
         border-radius: 9px;
     }
@@ -118,6 +119,9 @@
 
     .button-send {
         margin: 10px 0 -50px 0;
+    }
+    #message-box {
+        margin-left: 20%
     }
 
 }
