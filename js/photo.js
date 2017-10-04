@@ -1,6 +1,6 @@
 var i = 0;
 var image = document.getElementById("image");
-var imgs = ['../my-photo/evening-rome.jpg', '../my-photo/france.jpg', '../my-photo/genova-water.jpg', '../my-photo/genova.jpg', '../my-photo/italy-sun.jpg', '../my-photo/louvre.jpg', '../my-photo/pragha.jpg', '../my-photo/rome.jpg', '../my-photo/venecia.jpg'];
+var imgs = ['../img/evening-rome.jpg', '../img/france.jpg', '../img/genova-water.jpg', '../img/genova.jpg', '../img/italy-sun.jpg', '../img/louvre.jpg', '../img/pragha.jpg', '../img/rome.jpg', '../img/venecia.jpg'];
 document.getElementById('arrow-left').onclick = function() {
   i--;
   image.src = imgs[i];
