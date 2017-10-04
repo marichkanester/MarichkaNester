@@ -1,22 +1,21 @@
 var i = 0;
 var image = document.getElementById("image");
 var imgs = new Array('../my-photo/evening-rome.jpg', '../my-photo/france.jpg', '../my-photo/genova-water.jpg', '../my-photo/genova.jpg', '../my-photo/italy-sun.jpg', '../my-photo/louvre.jpg', '../my-photo/pragha.jpg', '../my-photo/rome.jpg', '../my-photo/venecia.jpg');
+document.getElementById('arrow-left').onclick = function() {
 
-function imgsrc() {
-  i++;
+  i--;
   image.src = imgs[i];
-
-  if (i >= imgs.length){
+  if (i <= 0) {
     image.src = imgs[0];
     i = 0;
   }
-  
 }
+document.getElementById('arrow-right').onclick = function() {
 
-  function imgsrcback() {
-      i--;
-      image.src = imgs[i];
-      if (i <= 0){
+  i++;
+  image.src = imgs[i];
+
+  if (i >= imgs.length) {
     image.src = imgs[0];
     i = 0;
   }
