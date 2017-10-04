@@ -183,7 +183,9 @@ h3:hover {
     border: 4px groove black;
     border-radius: 10px;
 }
-
+.hidden{
+    display: none;
+}
 .arrow{
     width: 32px;
     height: 32px;
