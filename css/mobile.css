@@ -69,6 +69,7 @@
 
     }
     .arrow-up {
+        display: block;
         width: 32px;
         height: 32px;
         top: 200px;
