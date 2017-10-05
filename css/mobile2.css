@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 500px) {
     body {
         max-width: 600px;
@@ -50,8 +49,46 @@
     .burger-menu ul li:hover {
         text-shadow: 2px 2px 4px black, 0 0 1em black;
     }
-    .absolute {
+    .stiky {
         display: none;
+    }
+    .absolute {
+        position: absolute;
+        width: 32px;
+        height: 4000px;
+    }
+    .bxright {
+        width: 19%;
+        height: 400px;
+        float: left;
+    }
+    .bxslider {
+        width: 80%;
+        height: 400px;
+        float: left;
+
+    }
+    .arrow-up {
+        width: 32px;
+        height: 32px;
+        top: 200px;
+        left: 20px;
+        position: sticky;
+    }
+        .arrow{
+    margin-top: 100px;
+}
+    .article-4 h4 {
+        margin: 50px 0 0 10px;
+        font-size: 16px;
+    }
+
+    .article-4 h6 {
+        margin: -50px 0 0 10px;
+        font-size: 12px;
+    }
+    .bxslider .img-photo img {
+        height: 300px;
     }
     .first-section h2 {
         display: none;
