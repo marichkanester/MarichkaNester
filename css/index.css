@@ -214,6 +214,9 @@ h3:hover {
     width: 30%;
     height: 400px;
 }
+.hidenFordesctop-skill{
+    display: none;
+}
 
 .article3 {
     width: 75%;
